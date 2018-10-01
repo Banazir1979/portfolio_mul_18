@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* main portfolio styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+		
+}
+/* Dette er navigation*/
+nav {
+	display: flex;
+	
+}
+.fb_icon {
+	width: 40px;
+	height: 40px;
+	
+}
+.work {
+	width: 40px;
+	height: 40px;
+	
+}
+.about_me {
+	width: 40px;
+	height: 40px;
+}
+/* Dette er body */
+body {
+    background-image: url("/edited_images/index_background.jpg");
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
