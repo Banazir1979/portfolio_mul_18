@@ -1,22 +1,39 @@
 @charset "utf-8";
 /* main portfolio styles */
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Roboto');
-
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+   
+	
+	background: #ddd;
+	font-family: 'Oswald', sans-serif;
+	
+	
+	}
 #container {
-	width: 80%;
+	width: 90%;
 	min-height: 90vh;
 	margin: auto;
-	border: 1px solid black;
+	border: 1px solid aliceblue;
 }
 #header {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid aliceblue;
 	padding: 10px;
 	text-align: center;
-	background-color: #777474
+	background-color: #777474;
+	height: 20%;
+	background: linear-gradient(rgb(34, 27, 39), rgb(66, 49, 79));
+	
+}
+#header h1 {
+	font-family: 'Parisienne', cursive;
+	color: aliceblue;
 }
 #nav {
-	border: 1px solid black;
+	border: 1px solid aliceblue;
 	padding: 10px;
+	height: 10%;
+	
 	}
 #nav img.item {
 	width: 40px;
@@ -34,22 +51,25 @@
 	padding-bottom: 7px;
 
 }
-#nav img.fb_icon {
+
+#main {
+	background-color: #824F50;
+	height: 65%;
+	background-image: url(../images/background.JPG);
+	background-size: cover;
+	color: aliceblue;
 	
 }
-#main {
-	background-color: #824F50
+table {
+    table-layout: fixed;
+    width: 100%;    
 }
 form {
 	width: 40vw;
 	margin: 20px auto;
-	border: 1px solid black;
+	border: 1px solid aliceblue;
 	padding: 20px;
 }
-.portrait {
-	width: 500px;
-	height: 267px;
-}
 
 
 
@@ -59,15 +79,9 @@ form {
 	
 
 
-body {
-   
-	
-	background: #ddd;
-	font-family: 'Roboto', sans-serif;
-	
-	}
-footer {
-	
+
+#footer {
+	height: 5%;
 }
 
 	
