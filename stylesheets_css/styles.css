@@ -5,7 +5,7 @@
 body {
    
 	
-	background: #ddd;
+	background: #0D0B08;
 	font-family: 'Oswald', sans-serif;
 	
 	
@@ -15,6 +15,7 @@ body {
 	min-height: 90vh;
 	margin: auto;
 	border: 1px solid aliceblue;
+	
 }
 #header {
 	border-bottom: 1px solid aliceblue;
@@ -30,14 +31,16 @@ body {
 	color: aliceblue;
 }
 #nav {
-	border: 1px solid aliceblue;
+	border: none;
 	padding: 10px;
 	height: 10%;
+	background: #FFCA84;
 	
 	}
 #nav img.item {
 	width: 40px;
 	height: 40px;
+	
 	}
 #nav img.contact {
 	width: 40px;
@@ -60,15 +63,49 @@ body {
 	color: aliceblue;
 	
 }
-table {
+#main h1 {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#main h2 {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#main h3 {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#main p {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#main table caption.caption {
+	font-size: 25px;
+}
+#main tbody th.subject {
+	font-sixe: 20px;
+}
+table, th, td {
     table-layout: fixed;
-    width: 100%;    
+    width: 100%; 
+	align-content: center;
+	text-align: center;
+	image-orientation: center;
+}
+table td.project {
+	
+}
+table td h3.project {
+	font-size: 150%;
 }
 form {
 	width: 40vw;
+	
 	margin: 20px auto;
-	border: 1px solid aliceblue;
+	border: none;
 	padding: 20px;
+	
+	
 }
 
 
@@ -82,6 +119,8 @@ form {
 
 #footer {
 	height: 5%;
+	padding-bottom: 5px;
+	padding-left: 10px;
 }
 
 	
