@@ -93,11 +93,9 @@ table, th, td {
 	text-align: center;
 	image-orientation: center;
 }
-table td.project {
-	
-}
-table td h3.project {
-	font-size: 100%;
+
+ td.project {
+	font-size: 30px;
 }
 figcaption.figcaption {
 	font-weight: 200;
@@ -122,7 +120,7 @@ form {
 	display: inline-block;
 }
 #form {
-	background: #F19C78;
+	background: #FFC282;
 	width: 200px;
 }
 #me {
