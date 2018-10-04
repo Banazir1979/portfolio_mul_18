@@ -105,6 +105,9 @@ table, th, td {
 figcaption.figcaption {
 	font-weight: 200;
 }
+.prework {
+	border: 1px solid black;
+}
 /*About me*/
 form {
 	width: 40vw;
